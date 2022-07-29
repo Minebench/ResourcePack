@@ -1,0 +1,5 @@
+{
+  "resourcePack.server.name": "Server Resource Pack",
+  "title.multiplayer.other": "Minebench.de - Dein Minecraft Server",
+  "test": "this is in a different namespace"
+}

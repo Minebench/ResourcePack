@@ -1,0 +1,7 @@
+{
+    "__comment": "Created by Phoenix616",
+    "parent": "hat/sunglasses/black_sunglasses",
+    "textures": {
+        "glass": "block/purple_stained_glass"
+    }
+}

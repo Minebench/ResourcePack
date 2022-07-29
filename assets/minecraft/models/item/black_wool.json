@@ -1,0 +1,7 @@
+{
+    "__comment": "Created by Phoenix616",
+    "parent": "block/black_wool",
+	"overrides": [
+		{ "predicate": {"custom_model_data": 1}, "model": "hat/tophat_black"}
+	]
+}
