@@ -1,33 +1,32 @@
 {
     "parent": "minecraft:item/generated",
     "textures": {
-        "layer0": "item/potion_overlay",
-        "layer1": "item/potion"
+        "layer0": "minecraft:item/glass_bottle"
     },
     "overrides": [
         {
             "predicate": {
                 "custom_model_data": 40
             },
-            "model": "minebench:item/cocktails/apple_kiss"
+            "model": "minebench:item/cocktails/apple_kiss_empty"
         },
         {
             "predicate": {
                 "custom_model_data": 41
             },
-            "model": "minebench:item/cocktails/beach_wave"
+            "model": "minebench:item/cocktails/beach_wave_empty"
         },
         {
             "predicate": {
                 "custom_model_data": 42
             },
-            "model": "minebench:item/cocktails/berry_supreme"
+            "model": "minebench:item/cocktails/berry_supreme_empty"
         },
         {
             "predicate": {
                 "custom_model_data": 43
             },
-            "model": "minebench:item/cocktails/dancing_on_the_rainbow"
+            "model": "minebench:item/cocktails/dancing_on_the_rainbow_empty"
         }
     ]
 }

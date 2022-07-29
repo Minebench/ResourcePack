@@ -1,6 +1,7 @@
 {
     "parent": "minecraft:item/generated",
     "textures": {
-        "layer0": "minebench:item/cocktails/dancing_on_the_rainbow"
+        "layer0": "minebench:item/cocktails/dancing_on_the_rainbow_overlay",
+        "layer1": "minebench:item/cocktails/dancing_on_the_rainbow_empty"
     }
 }

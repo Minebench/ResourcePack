@@ -1,0 +1,7 @@
+{
+    "parent": "minecraft:item/generated",
+    "textures": {
+        "layer0": "minebench:item/cocktails/apple_kiss_overlay",
+        "layer1": "minebench:item/cocktails/apple_kiss_empty"
+    }
+}

@@ -1,0 +1,6 @@
+{
+    "parent": "minecraft:item/generated",
+    "textures": {
+        "layer0": "minebench:item/cocktails/beach_wave_empty"
+    }
+}
