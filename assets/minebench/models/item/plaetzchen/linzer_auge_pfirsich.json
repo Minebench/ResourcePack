@@ -1,0 +1,6 @@
+{
+    "parent": "minecraft:item/generated",
+    "textures": {
+        "layer0": "minebench:item/plaetzchen/linzer_auge_pfirsich"
+    }
+}

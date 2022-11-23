@@ -1,0 +1,62 @@
+{
+    "parent": "minecraft:item/generated",
+    "textures": {
+        "layer0": "minecraft:item/cookie"
+    },
+    "overrides": [
+        {
+            "predicate": {
+                "custom_model_data": 2201
+            },
+            "model": "minebench:item/plaetzchen/butterplaetzchen"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 2202
+            },
+            "model": "minebench:item/plaetzchen/lebkuchenmann"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 2203
+            },
+            "model": "minebench:item/plaetzchen/linzer_auge"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 2204
+            },
+            "model": "minebench:item/plaetzchen/linzer_auge_aprikose"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 2205
+            },
+            "model": "minebench:item/plaetzchen/linzer_auge_pfirsich"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 2206
+            },
+            "model": "minebench:item/plaetzchen/linzer_auge_pflaume"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 2207
+            },
+            "model": "minebench:item/plaetzchen/nougat_stange"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 2208
+            },
+            "model": "minebench:item/plaetzchen/vanille_kipferl"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 2209
+            },
+            "model": "minebench:item/plaetzchen/weihnachtsbaum_plaetzchen"
+        }
+    ]
+}
