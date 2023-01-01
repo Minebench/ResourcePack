@@ -2,6 +2,6 @@
     "__comment": "Created by Phoenix616",
     "parent": "block/pink_wool",
 	"overrides": [
-		{ "predicate": {"custom_model_data": 1}, "model": "hat/bunny_hat"}
+		{ "predicate": {"custom_model_data": 1}, "model": "realhats:item/bunny_hat"}
 	]
 }

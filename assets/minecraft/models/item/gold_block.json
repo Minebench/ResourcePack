@@ -2,8 +2,8 @@
     "__comment": "Created by Phoenix616",
     "parent": "block/gold_block",
 	"overrides": [
-		{ "predicate": {"custom_model_data": 1}, "model": "hat/mining_helmet_off"},
-		{ "predicate": {"custom_model_data": 2}, "model": "hat/mining_helmet_on"},
-		{ "predicate": {"custom_model_data": 3}, "model": "hat/tophat_10"}
+		{ "predicate": {"custom_model_data": 1}, "model": "realhats:item/mining_helmet_off"},
+		{ "predicate": {"custom_model_data": 2}, "model": "realhats:item/mining_helmet_on"},
+		{ "predicate": {"custom_model_data": 3}, "model": "realhats:item/tophat_10"}
 	]
 }

@@ -1,9 +1,0 @@
-{
-    "__comment": "Model created by Phoenix616",
-    "credit": "Made by Phoenix616 aka Max Lee. Licensed under CC-SA-BY-4.0.",
-    "parent": "hat/tophat",
-    "textures": {
-        "hat": "block/purple_wool",
-        "band": "block/lime_wool"
-    }
-}

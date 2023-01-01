@@ -2,7 +2,7 @@
     "__comment": "Created by Phoenix616",
     "parent": "block/red_wool",
 	"overrides": [
-		{ "predicate": {"custom_model_data": 1}, "model": "hat/fez"},
-		{ "predicate": {"custom_model_data": 2}, "model": "hat/santa_hat"}
+		{ "predicate": {"custom_model_data": 1}, "model": "realhats:item/fez"},
+		{ "predicate": {"custom_model_data": 2}, "model": "realhats:item/santa_hat"}
 	]
 }

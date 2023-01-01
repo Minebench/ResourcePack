@@ -1,0 +1,7 @@
+{
+    "__comment": "Created by Phoenix616",
+    "parent": "realhats:item/sunglasses/sunglasses",
+    "textures": {
+        "holder": "minecraft:block/black_concrete"
+    }
+}
