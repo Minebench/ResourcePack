@@ -15,8 +15,10 @@ jobs:
         uses: actions/download-artifact@v3
         with:
           name: Optimized pack
+      - name: Rename pack file
+        run: mv pack.zip MinebenchRP.zip
       - name: Tag and create release
         uses: softprops/action-gh-release@v1
         with:
           tag_name: action-v${{ github.run_number }}
-          files: pack.zip
+          files: MinebenchRP.zip
