@@ -3,6 +3,7 @@
     "overrides": [
 		{ "predicate": {"custom_model_data": 1}, "model": "realhats:item/sunglasses/black_sunglasses_black"},
 		{ "predicate": {"custom_model_data": 2}, "model": "realhats:item/sunglasses/sunglasses_black"},
-		{ "predicate": {"custom_model_data": 3}, "model": "realhats:item/sunglasses/silver_sunglasses_black"}
+		{ "predicate": {"custom_model_data": 3}, "model": "realhats:item/sunglasses/silver_sunglasses_black"},
+		{ "predicate": {"custom_model_data": 4}, "model": "minecraft:item/black_stained_glass"}
 	]
 }
