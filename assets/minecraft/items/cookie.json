@@ -1,0 +1,75 @@
+{
+    "model": {
+        "fallback": {
+            "type": "model",
+            "model": "minecraft:item/cookie"
+        },
+        "type": "range_dispatch",
+        "property": "custom_model_data",
+        "entries": [
+            {
+                "threshold": 2201,
+                "model": {
+                    "type": "model",
+                    "model": "minebench:item/plaetzchen/butterplaetzchen"
+                }
+            },
+            {
+                "threshold": 2202,
+                "model": {
+                    "type": "model",
+                    "model": "minebench:item/plaetzchen/lebkuchenmann"
+                }
+            },
+            {
+                "threshold": 2203,
+                "model": {
+                    "type": "model",
+                    "model": "minebench:item/plaetzchen/linzer_auge"
+                }
+            },
+            {
+                "threshold": 2204,
+                "model": {
+                    "type": "model",
+                    "model": "minebench:item/plaetzchen/linzer_auge_aprikose"
+                }
+            },
+            {
+                "threshold": 2205,
+                "model": {
+                    "type": "model",
+                    "model": "minebench:item/plaetzchen/linzer_auge_pfirsich"
+                }
+            },
+            {
+                "threshold": 2206,
+                "model": {
+                    "type": "model",
+                    "model": "minebench:item/plaetzchen/linzer_auge_pflaume"
+                }
+            },
+            {
+                "threshold": 2207,
+                "model": {
+                    "type": "model",
+                    "model": "minebench:item/plaetzchen/nougat_stange"
+                }
+            },
+            {
+                "threshold": 2208,
+                "model": {
+                    "type": "model",
+                    "model": "minebench:item/plaetzchen/vanille_kipferl"
+                }
+            },
+            {
+                "threshold": 2209,
+                "model": {
+                    "type": "model",
+                    "model": "minebench:item/plaetzchen/weihnachtsbaum_plaetzchen"
+                }
+            }
+        ]
+    }
+}

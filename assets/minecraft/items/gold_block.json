@@ -1,0 +1,34 @@
+{
+    "__comment": "Created by Phoenix616",
+    "model": {
+        "fallback": {
+            "type": "model",
+            "model": "block/gold_block"
+        },
+        "type": "range_dispatch",
+        "property": "custom_model_data",
+        "entries": [
+            {
+                "threshold": 1,
+                 "model": {
+                    "type": "model",
+                    "model": "realhats:item/mining_helmet_off"
+                }
+            },
+            {
+                "threshold": 2,
+                 "model": {
+                    "type": "model",
+                    "model": "realhats:item/mining_helmet_on"
+                }
+            },
+            {
+                "threshold": 3,
+                 "model": {
+                    "type": "model",
+                    "model": "realhats:item/tophat_10"
+                }
+            }
+        ]
+    }
+}

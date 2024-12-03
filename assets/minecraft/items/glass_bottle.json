@@ -1,0 +1,40 @@
+{
+    "model": {
+        "fallback": {
+            "type": "model",
+            "model": "minecraft:item/glass_bottle"
+        },
+        "type": "range_dispatch",
+        "property": "custom_model_data",
+        "entries": [
+            {
+                "threshold": 40,
+                 "model": {
+                    "type": "model",
+                    "model": "minebench:item/cocktails/apple_kiss_empty"
+                }
+            },
+            {
+                "threshold": 41,
+                 "model": {
+                    "type": "model",
+                    "model": "minebench:item/cocktails/beach_wave_empty"
+                }
+            },
+            {
+                "threshold": 42,
+                 "model": {
+                    "type": "model",
+                    "model": "minebench:item/cocktails/berry_supreme_empty"
+                }
+            },
+            {
+                "threshold": 43,
+                 "model": {
+                    "type": "model",
+                    "model": "minebench:item/cocktails/dancing_on_the_rainbow_empty"
+                }
+            }
+        ]
+    }
+}

@@ -1,0 +1,33 @@
+{
+    "model": {
+        "fallback": {
+            "type": "model",
+            "model": "minecraft:block/cyan_stained_glass"
+        },
+        "type": "range_dispatch",
+        "property": "custom_model_data",
+        "entries": [
+            {
+                "threshold": 1,
+                 "model": {
+                    "type": "model",
+                    "model": "realhats:item/sunglasses/black_sunglasses_cyan"
+                }
+            },
+            {
+                "threshold": 2,
+                 "model": {
+                    "type": "model",
+                    "model": "realhats:item/sunglasses/sunglasses_cyan"
+                }
+            },
+            {
+                "threshold": 3,
+                 "model": {
+                    "type": "model",
+                    "model": "realhats:item/sunglasses/silver_sunglasses_cyan"
+                }
+            }
+        ]
+    }
+}

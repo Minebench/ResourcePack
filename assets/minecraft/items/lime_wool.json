@@ -1,0 +1,27 @@
+{
+    "__comment": "Created by Phoenix616",
+    "model": {
+        "fallback": {
+            "type": "model",
+            "model": "block/lime_wool"
+        },
+        "type": "range_dispatch",
+        "property": "custom_model_data",
+        "entries": [
+            {
+                "threshold": 1,
+                 "model": {
+                    "type": "model",
+                    "model": "realhats:item/winter_hat"
+                }
+            },
+            {
+                "threshold": 2,
+                 "model": {
+                    "type": "model",
+                    "model": "minecraft:item/lime_wool"
+                }
+            }
+        ]
+    }
+}
