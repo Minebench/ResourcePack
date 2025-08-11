@@ -10,15 +10,14 @@ jobs:
         with:
           fetch-depth: 0 # A non-shallow repository clone is required
       - name: Run PackSquash
-        uses: ComunidadAylas/PackSquash-action@v3
-      - name: Download optimized pack
-        uses: actions/download-artifact@v5
+        uses: ComunidadAylas/PackSquash-action@v4
         with:
-          name: Optimized pack
-      - name: Rename pack file
-        run: mv pack.zip MinebenchRP.zip
+          packsquash_version: latest
+          options: |
+            pack_directory = '.'
+            output_file_path = '/tmp/MinebenchRP.zip'
       - name: Tag and create release
-        uses: softprops/action-gh-release@v1
+        uses: softprops/action-gh-release@v2
         with:
           tag_name: action-v${{ github.run_number }}
-          files: MinebenchRP.zip
+          files: /tmp/MinebenchRP.zip
