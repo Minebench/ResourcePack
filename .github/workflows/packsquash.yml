@@ -12,7 +12,7 @@ jobs:
       - name: Run PackSquash
         uses: ComunidadAylas/PackSquash-action@v3
       - name: Download optimized pack
-        uses: actions/download-artifact@v3
+        uses: actions/download-artifact@v5
         with:
           name: Optimized pack
       - name: Rename pack file
